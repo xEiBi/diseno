@@ -19,12 +19,6 @@ export class Capacitaciones extends Entity {
     type: 'string',
     required: true,
   })
-  description: string;
-
-  @property({
-    type: 'string',
-    required: true,
-  })
   name: string;
 
   @property({
@@ -51,7 +45,6 @@ export class Capacitaciones extends Entity {
   })
   requestMeeting: string;
 
-
   constructor(data?: Partial<Capacitaciones>) {
     super(data);
   }
@@ -61,4 +54,5 @@ export interface CapacitacionesRelations {
   // describe navigational properties here
 }
 
-export type CapacitacionesWithRelations = Capacitaciones & CapacitacionesRelations;
+export type CapacitacionesWithRelations = Capacitaciones &
+  CapacitacionesRelations;

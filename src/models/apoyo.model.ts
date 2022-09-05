@@ -49,8 +49,13 @@ export class Apoyo extends Entity {
     type: 'string',
     required: true,
   })
-  requestMeeting: string;
+  date: string;
 
+  @property({
+    type: 'string',
+    required: true,
+  })
+  requestMeeting: string;
 
   constructor(data?: Partial<Apoyo>) {
     super(data);

@@ -1,4 +1,3 @@
-export * from './form.repository';
 export * from './apoyo.repository';
 export * from './capacitaciones.repository';
 export * from './diagnostico.repository';
