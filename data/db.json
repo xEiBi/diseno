@@ -1,0 +1,30 @@
+{
+  "ids": {
+    "Apoyo": 2,
+    "Capacitaciones": 2,
+    "Diagnostico": 2,
+    "Diseno": 2,
+    "Implementacion": 2,
+    "Proyectos": 2
+  },
+  "models": {
+    "Apoyo": {
+      "1": "{\"name\":\"apoyo\",\"area\":\"string\",\"position\":\"string\",\"project\":\"string\",\"priority\":\"string\",\"description\":\"string\",\"requestMeeting\":\"string\",\"id\":1}"
+    },
+    "Capacitaciones": {
+      "1": "{\"priority\":\"capacitaciones\",\"description\":\"string\",\"name\":\"string\",\"email\":\"string\",\"position\":\"string\",\"date\":\"string\",\"requestMeeting\":\"string\",\"id\":1}"
+    },
+    "Diagnostico": {
+      "1": "{\"name\":\"diagnosticos\",\"area\":\"string\",\"position\":\"string\",\"subsidiary\":\"string\",\"priority\":\"string\",\"requestType\":\"string\",\"process\":\"string\",\"description\":\"string\",\"objective\":\"string\",\"id\":1}"
+    },
+    "Diseno": {
+      "1": "{\"name\":\"disenos\",\"area\":\"string\",\"position\":\"string\",\"email\":\"string\",\"subsidiary\":\"string\",\"priority\":\"string\",\"requestType\":\"string\",\"documentType\":\"string\",\"process\":\"string\",\"subprocess\":\"string\",\"documentName\":\"string\",\"requestDetails\":\"string\",\"file\":\"string\",\"requestMeeting\":\"string\",\"id\":1}"
+    },
+    "Implementacion": {
+      "1": "{\"name\":\"implementacion\",\"costCenter\":\"string\",\"priority\":\"string\",\"description\":\"string\",\"requestMeeting\":\"string\",\"id\":1}"
+    },
+    "Proyectos": {
+      "1": "{\"name\":\"proyectos\",\"area\":\"string\",\"position\":\"string\",\"subsidiary\":\"string\",\"priority\":\"string\",\"description\":\"string\",\"requestMeeting\":\"string\",\"id\":1}"
+    }
+  }
+}
